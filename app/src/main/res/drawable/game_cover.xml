@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Fundo gradiente -->
+    <path
+        android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="240">
+                <item android:offset="0" android:color="#FF1A237E"/>
+                <item android:offset="1" android:color="#FF0D47A1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Padrão de ondas decorativas -->
+    <path
+        android:fillColor="#3949AB"
+        android:fillAlpha="0.3"
+        android:pathData="M0,160 Q100,130 200,160 T400,160 L400,240 L0,240 Z"/>
+    <path
+        android:fillColor="#5C6BC0"
+        android:fillAlpha="0.2"
+        android:pathData="M0,180 Q100,150 200,180 T400,180 L400,240 L0,240 Z"/>
+
+    <!-- Círculos decorativos -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.1"
+        android:pathData="M50,50m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.1"
+        android:pathData="M350,190m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+
+    <!-- Globo central -->
+    <group
+        android:pivotX="200"
+        android:pivotY="120"
+        android:rotation="-15">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M200,70c-27.6,0 -50,22.4 -50,50s22.4,50 50,50s50,-22.4 50,-50S227.6,70 200,70zM200,160c-22.1,0 -40,-17.9 -40,-40s17.9,-40 40,-40s40,17.9 40,40S222.1,160 200,160z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.8"
+            android:pathData="M200,85c-19.3,0 -35,15.7 -35,35h70C235,100.7 219.3,85 200,85z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"
+            android:pathData="M165,120c0,19.3 15.7,35 35,35V120H165z"/>
+    </group>
+
+    <!-- Elementos flutuantes -->
+    <group
+        android:pivotX="200"
+        android:pivotY="120">
+        <!-- Livros -->
+        <path
+            android:fillColor="#FF5252"
+            android:pathData="M100,140l30,-10l5,20l-30,10z"/>
+        <path
+            android:fillColor="#FF7043"
+            android:pathData="M95,145l30,-10l5,20l-30,10z"/>
+        
+        <!-- Lápis -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M300,80l8,-25l8,3l-8,25z"/>
+        
+        <!-- Notas musicais -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M280,160c0,5.5 -4.5,10 -10,10s-10,-4.5 -10,-10s4.5,-10 10,-10S280,154.5 280,160z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M260,150v-30h3v30z"/>
+
+        <!-- Símbolos de idiomas -->
+        <path
+            android:fillColor="#81C784"
+            android:pathData="M120,90l15,-15h10v10l-15,15z"/>
+        <path
+            android:fillColor="#4FC3F7"
+            android:pathData="M320,130l-15,15h-10v-10l15,-15z"/>
+    </group>
+
+    <!-- Estrelas cintilantes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"
+        android:pathData="M50,30l5,-5l5,5l-5,5z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M350,50l4,-4l4,4l-4,4z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M300,20l3,-3l3,3l-3,3z"/>
+</vector> 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Globo -->
+    <group
+        android:scaleX="0.45"
+        android:scaleY="0.45"
+        android:translateX="30"
+        android:translateY="30">
+        
+        <!-- Círculo base do globo -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,20c-18.8,0 -34,15.2 -34,34s15.2,34 34,34s34,-15.2 34,-34S72.8,20 54,20zM54,82c-15.5,0 -28,-12.5 -28,-28s12.5,-28 28,-28s28,12.5 28,28S69.5,82 54,82z"/>
+
+        <!-- Linhas do globo -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,30c-13.3,0 -24,10.7 -24,24h48C78,40.7 67.3,30 54,30z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,54c0,13.3 10.7,24 24,24V54H30z"/>
+
+        <!-- Balões de diálogo -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M85,35l-15,-15v10h-10v10h10v10z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M23,73l15,15v-10h10v-10h-10v-10z"/>
+
+        <!-- Estrelas decorativas -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M90,25l5,-5l5,5l-5,5z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,80l4,-4l4,4l-4,4z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M80,90l3,-3l3,3l-3,3z"/>
+    </group>
+</vector>
